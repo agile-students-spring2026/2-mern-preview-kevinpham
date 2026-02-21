@@ -92,5 +92,4 @@ app.get('/about', (req, res) => {
   })
 })
 
-// export the express app we created to make it available to other modules
-module.exports = app // CommonJS export style!
+module.exports = app 
