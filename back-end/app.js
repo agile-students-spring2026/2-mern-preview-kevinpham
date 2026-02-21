@@ -78,5 +78,19 @@ app.post('/messages/save', async (req, res) => {
   }
 })
 
+// a route to handle fetching the About Us page content
+app.get('/about', (req, res) => {
+  res.json({
+    name: 'Kevin Pham',
+    paragraphs: [
+      'Hi! My name is Kevin Pham and I\'m an Economics and Computer Science student. Fun fact is that I was originally a public health student, however transitioned to the joint major in Economics and Computer Science because I felt like I enjoyed building things instead.',
+      'In my free time I like to work on personal projects, play videogames, go to the gym and hang out with friends. More recently, I\'ve been trying to get into cooking again and have been having fun trying out new recipes. I am also building an app for myself to keep track of all of the new recipes I am learning too!',
+      'Last semester, I took a Software Engineering with Professor Bloomberg and really enjoyed the class. And now I\'m excited to be taking this class and building more projects again too.'
+    ],
+    imageUrl: '/IMG_0252.jpg',
+    status: 'all good',
+  })
+})
+
 // export the express app we created to make it available to other modules
 module.exports = app // CommonJS export style!

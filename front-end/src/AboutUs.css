@@ -1,0 +1,35 @@
+.AboutUs {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: sans-serif;
+  line-height: 1.7;
+}
+
+.AboutUs h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.AboutUs h2 {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.AboutUs p {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.AboutUs-photo-container {
+  margin-bottom: 1.5rem;
+}
+
+.AboutUs-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}
